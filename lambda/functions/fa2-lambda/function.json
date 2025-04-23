@@ -1,15 +1,18 @@
 {
     "bindings": [
-        {
-            "type": "httpTrigger",
-            "authLevel": "function",
-            "name": "req",
-            "methods": ["get"]
-        },
-        {
-            "type": "http",
-            "name": "res"
-        }
+      {
+        "authLevel": "anonymous",
+        "type": "httpTrigger",
+        "direction": "in",
+        "name": "req",
+        "methods": ["get", "post"]
+      },
+      {
+        "type": "http",
+        "direction": "out",
+        "name": "res"
+      }
     ],
-    "scriptFile": "main.mts"
-}
+    "scriptFile": "main.ts",
+    "entryPoint": "httpTrigger"
+  }

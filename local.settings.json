@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=jcomprojectloganaly94e9;AccountKey=2KBvZvA6XOk1tTVcwW/8DPrhxny1UhxPF2cQye3ZYPRdk6txRom36Z3JfuC2+Br2M8Kvj7C8kfFk+AStXeSFEA==;EndpointSuffix=core.windows.net",
+      "FUNCTIONS_WORKER_RUNTIME": "node",
+      "STORAGE_ACCOUNT_NAME": "jcomprojectloganaly94e9",
+      "CONTAINER_NAME": "loganalysis-dev-je-blob-001",
+      "AZURE_OPENAI_ENDPOINT": "https://loganalysis-dev-je-ai-001.cognitiveservices.azure.com/",
+      "AZURE_OPENAI_KEY": "1YzAYNRaFXt9YNGZTVY5wFIKQShr4c5ZRLOwCEb2CXOsH9gObNFvJQQJ99BDACi0881XJ3w3AAAEACOG14K7",
+      "CERTIFICATE_FILE_PATH": "./pem/localhost.pem",
+      "CERTIFICATE_KEY_PATH": "./pem/localhost-key.pem"
+    }
+  }

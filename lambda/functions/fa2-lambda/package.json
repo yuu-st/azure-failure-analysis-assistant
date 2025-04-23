@@ -11,6 +11,7 @@
     "@types/tough-cookie": "^4.0.2"
   },
   "dependencies": {
+    "@azure/functions": "^4.7.0",
     "@azure/identity": "^4.8.0",
     "@slack/web-api": "^7.3.4",
     "@sparticuz/chromium": "^129.0.0",

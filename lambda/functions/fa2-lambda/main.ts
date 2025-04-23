@@ -3,7 +3,6 @@ import { Prompt } from "../../lib/prompts.js";
 import { Logger } from "../../lib/logger.js"; 
 import { AzureStorageBlobClient } from "../../lib/azure-storage-blob-client.js";
 import { AzureOpenAIClient } from "../../lib/azure-openai-client.js";
-import { AzureCliCredential } from "@azure/identity/dist/esm/index.js";
 
 
 type RequestBoby = {
