@@ -1,0 +1,15 @@
+{
+    "bindings": [
+        {
+            "type": "httpTrigger",
+            "authLevel": "function",
+            "name": "req",
+            "methods": ["get"]
+        },
+        {
+            "type": "http",
+            "name": "res"
+        }
+    ],
+    "scriptFile": "main.mts"
+}
